@@ -1,7 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: "flex";
+  flex-direction: "column";
+  align-items: "center";
+  justify-content: "center";
+  min-height: "100vh"
+}
+.label{
+    margin-bottom: "10px",
+    
+}
+
+/* .label input{
+    padding: 0.5rem;
+    font-size: 15px;
+} */
+
+
 .photoframe{
     padding:0.5rem;
 }
+
 .photoframe img{
+  
     border: 4px solid rgb(250, 0, 0);
 }
 .caption{

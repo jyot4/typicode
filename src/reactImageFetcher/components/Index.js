@@ -18,25 +18,27 @@ const Index = () => {
           setSearch(response.data)
           // console.log(response.data)
         })
-    }, 2000)
+    }, 1000)
     
   } ,[input])
 
 
   return (
-
-    <div>
+<>
+<div className="container">
+    <div className="label">
       <label>Write a number</label>
       <input type="number" maxLength={5000} value={input} onChange={(e) => setInput(e.target.value)} />
-
-      <div className='photoFrame'>
+      </div>
+      <div className='photoframe'>
 
         <img src={search.url} />
       </div>
       <div className="caption">
         <h2>{search.title}</h2>
       </div>
-    </div>
+      </div>
+      </>
 
   )
 }
