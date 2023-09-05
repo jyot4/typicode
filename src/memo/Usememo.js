@@ -1,7 +1,7 @@
 // Check this out
 
 
-import React ,{useState} from 'react'
+import React ,{useCallback, useState} from 'react'
 import { useMemo } from 'react';
 
 function Usememo() {
@@ -12,9 +12,14 @@ function Usememo() {
 //   const square = handleClick(input);
 
 
-  const square = useMemo(()=>{
-    return handleClick(input)
-  },[input])
+//   const square = useMemo(()=>{
+//     return handleClick(input)
+//   },[input])
+
+const square = useCallback(()=>{
+
+},[])
+
   function handleClick(num) {
     for(let i=0;i<=2000000000;i++){}
     return num * num;
