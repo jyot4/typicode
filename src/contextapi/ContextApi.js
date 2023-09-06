@@ -2,19 +2,16 @@ import React, { useState } from 'react'
 import { createContext } from 'react'
 import App from '../App'
 
-export const context = createContext({})
+export const thisContext = createContext({})
 
 function ContextApi() {
-   
-    const[data , setData] =useState("Sachin and Priya")
-
+    const [data, setData] = useState("priya vyas")
   return (
-   <>
-   <context.Provider value={{setData,data}}>
-    <App/>
-   </context.Provider>
-
-   </>
+    <div>
+      <thisContext.Provider value= {{data , setData}}>
+<App/>
+      </thisContext.Provider>
+    </div>
   )
 }
 
