@@ -17,6 +17,7 @@ function UseRef() {
     <div>
       <input type='text' placeholder='enter your name' value={input} onChange={(e)=>setInput(e.target.value)}></input>
       <p>The character u write :- {count.current}</p>
+      {/* <input type='text' placeholder=''></input> */}
     </div>
   )
 }
