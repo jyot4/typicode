@@ -34,7 +34,7 @@ function getAllQuotes (){
         <div className='quotes'>
        <div className='quotesContent'>
             <h2>{newData.text}</h2>
-            <p>{newData.author}</p>
+            <p><strong>Author :-</strong>  {newData.author}</p>
             <button onClick={getAllQuotes}>Next Quotes</button>
             </div>
             </div>

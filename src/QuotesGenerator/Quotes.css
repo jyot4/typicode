@@ -1,34 +1,63 @@
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.quotesMain{
-    width:100vw;
+
+.quotesMain {
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(114, 66, 4);
-
+    background-color: #041229;
 }
+
 
 .quotesMain h1 {
-    font-size: 80px;
+    font-size: 3rem; 
     margin-bottom: 20px;
-   
+    color: whitesmoke;
 }
 
-.quotes{
-    border: 1px;
+
+
+.quotes {
+    border: 1px solid #ddd; 
     border-radius: 5px;
-    width: 50%;
-    height: 200px;
-    background-color:rgb(185, 157, 116);
-    padding:30px 20px;
-    justify-content: center;
-    align-items: center;
+    width: 60%;
+    max-width: 800px;
+    padding: 20px; 
+    background-color: hsl(340, 60%, 62%);
+    color: #0f0e0e; 
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+
+.quotesContent h2 {
+    font-size: 1.5rem; 
+    margin-bottom: 10px;
+}
+
+
+.quotesContent button {
+    font-size: 1rem; 
+    padding: 10px 20px; 
+    margin-top: 10px;
+    background-color: #041229;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+
+.quotesContent button:hover {
+    background-color: #1a2d4c; 
 }
