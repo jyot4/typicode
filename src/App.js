@@ -1,18 +1,14 @@
 // import logo from './logo.svg';
 import './App.css';
-// import App from './reactImageFetcher/components';
-// import Index from "./reactImageFetcher/components/Index";
-import { useContext } from 'react';
-import { thisContext } from './contextapi/ContextApi';
+import RandomUser from './randomuser/RandomUser';
 
 
 function App() {
-  const {data,setData} = useContext(thisContext)
-  // console.log(data)
+  
+  
   return (
     <div className="App">
-      <p>{data}</p>
-  {/* <Index/> */}
+     <RandomUser/>
     </div>
   );
 }
