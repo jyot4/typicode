@@ -1,6 +1,8 @@
-// import logo from './logo.svg';
+
 import './App.css';
-import RandomUser from './randomuser/RandomUser';
+// import RandomUser from './randomuser/RandomUser';
+// import Qr from './QrCode/Qr';
+import Product from './Products api/Product';
 
 
 function App() {
@@ -8,7 +10,7 @@ function App() {
   
   return (
     <div className="App">
-     <RandomUser/>
+<Product/>
     </div>
   );
 }
