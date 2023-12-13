@@ -4,7 +4,8 @@ import './App.css';
 // import Qr from './QrCode/Qr';
 // import {BrowserRouter,Routes,Route} from 'react-router-dom'
 // import Product from './Products api/Product';
-import Country from './CountryList/Country';
+// import Country from './CountryList/Country';
+import Flag from './CountryFlag/Flag';
 
 
 function App() {
@@ -20,7 +21,10 @@ function App() {
 </Routes>
 </BrowserRouter> */}
 
-<Country/>
+{/* <Country/> */}
+{/* <RandomUser/> */}
+
+<Flag/>
 
     </div>
   );
